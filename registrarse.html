@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="barra-navegacion">
+        <p class="opcion" id="amarillo">
+            <a href="index.html">Inicio</a>
+        </p>
+        <p class="opcion" id="celeste">
+            <a href="tiendas.html">Tiendas</a>
+        </p>
+        <p class="opcion" id="azul">
+            <a href="productos.html">Productos/Servicios</a>
+        </p>
+    </div>
+    <h1 class="centrar">Registrarse</h1>
+    <form>
+        <ul>
+            <li>
+                <label for="usuario">Nombre de Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </li>
+            <li>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </li>
+            <li>
+                <label for="confirmacion">Confirmar Contraseña:</label>
+                <input type="password" id="confirmacion" name="confirmacion" required>
+            </li>
+            <li>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </li>
+            <li>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </li>
+            <li>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </li>
+            <li class="inline-group">
+                <label>Sexo:</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino" required>
+                <label for="femenino">Femenino</label>
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            </li>
+            <li class="inline-group">
+                <label for="nacionalidad">Nacionalidad:</label>
+                <select id="nacionalidad" name="nacionalidad" required>
+                    <option value="espanola">Guatemala</option>
+                    <option value="mexicana">Mexico</option>
+                    <option value="argentina">Argentina</option>
+                </select>
+            </li>
+        </ul>
+
+        <button type="submit">Registrar</button>
+    </form>
+    <br>
+    <div class="barra-inferior">
+        <div class="izquierda">
+            <span class="creditos">PBX: xxxxxxxx</span>
+            <span class="creditos">Dirección: xxxxxxxxxxxxxxx</span>
+        </div>
+        <div class="derecha">
+            <span class="creditos">Carnet: 202101299</span>
+            <span class="creditos">Nombre: Jeferson Siquiej</span>
+        </div>
+    </div>
+</body>
+</html>
